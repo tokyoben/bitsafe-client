@@ -1,0 +1,14 @@
+{
+  "name": "NinkiWallet",
+  "description": "NinkiWallet",
+  "version": "1.7",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "logo.png", "128": "logo.png" },
+  "permissions": ["https://ninkip2p.imgix.net/","storage", "fullscreen",{"fileSystem": ["read", "write", "retainEntries", "directory"]}]
+  
+}
