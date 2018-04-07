@@ -1,6 +1,6 @@
 # bitsafe-client
 
-##Build Instructions
+## Build Instructions
 
 cd bitsafe-client-lib
 npm install
